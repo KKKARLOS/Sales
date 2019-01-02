@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Accept" xml:space="preserve">
+    <value>Onartu</value>
+  </data>
+  <data name="EmailPlaceHolder" xml:space="preserve">
+    <value>Ingresa tu email..</value>
+  </data>
+  <data name="EmailValidation" xml:space="preserve">
+    <value>24/5000
+Posta elektronikoa idatzi behar duzu.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="PasswordValidation" xml:space="preserve">
+    <value>Debes ingresar una contraseña.</value>
+  </data>
+  <data name="Rememberme" xml:space="preserve">
+    <value>Gogoratu gailu honetan</value>
+  </data>
+  <data name="SomethingWrong" xml:space="preserve">
+    <value>Algo anda mal con los servicios, por favor intenta más tarde.</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Sartzen</value>
+  </data>
+  <data name="EMail" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Pasahitza</value>
+  </data>
+  <data name="PasswordPlaceHolder" xml:space="preserve">
+    <value>Ingresa tu contraseña...</value>
+  </data>
+  <data name="Forgot" xml:space="preserve">
+    <value>¿Pasahitza ahaztu duzu?</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>erregistratu</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Bilaketa</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Informazio</value>
+  </data>
+  <data name="Currencies" xml:space="preserve">
+    <value>Txamponak</value>
+  </data>
+  <data name="Translations" xml:space="preserve">
+    <value>Traducciones</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Menú</value>
+  </data>
+  <data name="MyProfile" xml:space="preserve">
+    <value>Nire Profila</value>
+  </data>
+  <data name="Statics" xml:space="preserve">
+    <value>Estadísticas</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Bukatu sesión</value>
+  </data>
+  <data name="RegisterTitle" xml:space="preserve">
+    <value>erregistratu erabiltzaile berria</value>
+  </data>
+  <data name="ChangeImage" xml:space="preserve">
+    <value>Ukitu irudia aldatzeko.</value>
+  </data>
+  <data name="FirstNameLabel" xml:space="preserve">
+    <value>izenak</value>
+  </data>
+  <data name="FirstNamePlaceHolder" xml:space="preserve">
+    <value>Izenak  sartu</value>
+  </data>
+  <data name="FirstNameValidation" xml:space="preserve">
+    <value>Izena sartu behar duzu</value>
+  </data>
+  <data name="LastNameLabel" xml:space="preserve">
+    <value>Abizenak</value>
+  </data>
+  <data name="LastNamePlaceHolder" xml:space="preserve">
+    <value>Abizenak sartu behar duzu</value>
+  </data>
+  <data name="LastNameValidation" xml:space="preserve">
+    <value>Abizenak sartu behar duzu</value>
+  </data>
+  <data name="PhoneLabel" xml:space="preserve">
+    <value>Telefonoa</value>
+  </data>
+  <data name="PhonePlaceHolder" xml:space="preserve">
+    <value>Sartu telefonoa</value>
+  </data>
+  <data name="PhoneValidation" xml:space="preserve">
+    <value>Telefonoa sartu behar duzu</value>
+  </data>
+  <data name="ConfirmLabel" xml:space="preserve">
+    <value>Berrespena</value>
+  </data>
+  <data name="ConfirmPlaceHolder" xml:space="preserve">
+    <value>Sartu pasahitz berrespena</value>
+  </data>
+  <data name="ConfirmValidation" xml:space="preserve">
+    <value>Pasahitz berrespena sartu behar duzu</value>
+  </data>
+  <data name="EmailValidation2" xml:space="preserve">
+    <value>Posta elektroniko egokia idatzi behar duzu.</value>
+  </data>
+  <data name="PasswordValidation2" xml:space="preserve">
+    <value>La contraseña debe tener al menos sies (6) carácteres.</value>
+  </data>
+  <data name="ConfirmValidation2" xml:space="preserve">
+    <value>Pasahitza eta berrespena ez dira berdinak</value>
+  </data>
+  <data name="UserRegisteredMessage" xml:space="preserve">
+    <value>Usuario registrado, ya puedes ingresar con este email y clave asignada.</value>
+  </data>
+  <data name="SourceImageQuestion" xml:space="preserve">
+    <value>¿Non nahi duzu argazkia ateratzeko??</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelatu</value>
+  </data>
+  <data name="FromGallery" xml:space="preserve">
+    <value>Galeriatik</value>
+  </data>
+  <data name="FromCamera" xml:space="preserve">
+    <value>Kameratik</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Gorde</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Aldatu pasahitza</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Uneko pasahitza</value>
+  </data>
+  <data name="CurrentPasswordPlaceHolder" xml:space="preserve">
+    <value>Sartu zure uneko pasahitza</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Contraseña nueva</value>
+  </data>
+  <data name="NewPasswordPlaceHolder" xml:space="preserve">
+    <value>Ingrese la nueva contraseña...</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>Posta elektronikoa edo pasahitza okerra.</value>
+  </data>
+  <data name="ChagePasswordConfirm" xml:space="preserve">
+    <value>Pasahitza behar bezala aldatu da.</value>
+  </data>
+  <data name="PasswordError" xml:space="preserve">
+    <value>Uneko pasahitza okerra da</value>
+  </data>
+  <data name="ErrorChangingPassword" xml:space="preserve">
+    <value>La contraseña no pudo ser cambiada, por favor intenta más tarde.</value>
+  </data>
+  <data name="EmailPasswordValidation" xml:space="preserve">
+    <value>Posta elektronikoa edo pasahitza ez da zuzena</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>Produktuak</value>
+  </data>
+  <data name="TurnOnInternet" xml:space="preserve">
+    <value>Egiaztatu Interneteko konexioaren parametroak aktibatu dituzula</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Egiaztatu internet konexioa duzula.</value>
+  </data>
+  <data name="AddProduct" xml:space="preserve">
+    <value>Gehitu Produktua</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Deskribapena</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Prezio</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>Iruzkinak:</value>
+  </data>
+  <data name="DescriptionPlaceHolder" xml:space="preserve">
+    <value>Idatzi produktuaren deskribapena</value>
+  </data>
+  <data name="PricePlaceHolder" xml:space="preserve">
+    <value>Idatzi produktuaren prezioa</value>
+  </data>
+  <data name="DescriptionError" xml:space="preserve">
+    <value>Azalpena idatzi behar duzu</value>
+  </data>
+  <data name="PriceError" xml:space="preserve">
+    <value>Zero baino handiagoa den prezioa idatzi behar duzu</value>
+  </data>
+  <data name="InsertOK" xml:space="preserve">
+    <value>Grabatu ezazu ongi</value>
+  </data>
+  <data name="ImageSource" xml:space="preserve">
+    <value>Non ateratzen duzu argazkia?</value>
+  </data>
+  <data name="NewPicture" xml:space="preserve">
+    <value>Egin argazkia...</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editatu</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Ezabatu</value>
+  </data>
+  <data name="DeleteConfirmation" xml:space="preserve">
+    <value>Ziur zaude?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Bai</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Ez</value>
+  </data>
+  <data name="EditProduct" xml:space="preserve">
+    <value>Produktua</value>
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>libre dago.</value>
+  </data>
+</root>
