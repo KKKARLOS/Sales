@@ -13,7 +13,7 @@
     using Domain.Models;
     using Sales.API.Helpers;
 
-    //[Authorize]
+    [Authorize]
     public class ProductsController : ApiController
     {
         private DataContext db = new DataContext();
@@ -28,13 +28,13 @@
         [ResponseType(typeof(Product))]
         public async Task<IHttpActionResult> GetProduct(int id)
         {
-            Product product = await db.Products.FindAsync(id);
-            if (product == null)
+            var products = await db.Products.Where(p => p.CategoryId == id).ToListAsync();
+            if (products == null)
             {
                 return NotFound();
             }
 
-            return Ok(product);
+            return Ok(products);
         }
 
         // PUT: api/Products/5

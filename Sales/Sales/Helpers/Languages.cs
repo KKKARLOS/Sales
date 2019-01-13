@@ -121,9 +121,9 @@
             get { return Resource.ChangeImage; }
         }
 
-        public static string FirstNameLabel
+        public static string FirstName
         {
-            get { return Resource.FirstNameLabel; }
+            get { return Resource.FirstName; }
         }
 
         public static string FirstNamePlaceHolder
@@ -136,9 +136,9 @@
             get { return Resource.FirstNameValidation; }
         }
 
-        public static string LastNameLabel
+        public static string LastName
         {
-            get { return Resource.LastNameLabel; }
+            get { return Resource.LastName; }
         }
 
         public static string LastNamePlaceHolder
@@ -151,9 +151,9 @@
             get { return Resource.LastNameValidation; }
         }
 
-        public static string PhoneLabel
+        public static string Phone
         {
-            get { return Resource.PhoneLabel; }
+            get { return Resource.Phone; }
         }
 
         public static string PhonePlaceHolder
@@ -166,9 +166,9 @@
             get { return Resource.PhoneValidation; }
         }
 
-        public static string ConfirmLabel
+        public static string Confirm
         {
-            get { return Resource.ConfirmLabel; }
+            get { return Resource.Confirm; }
         }
 
         public static string ConfirmPlaceHolder
@@ -356,5 +356,56 @@
         {
             get { return Resource.EditProduct; }
         }
+        public static string About
+        {
+            get { return Resource.About; }
+        }
+        public static string Setup
+        {
+            get { return Resource.Setup; }
+        }
+        public static string Exit
+        {
+            get { return Resource.Exit; }
+        }
+        public static string NoProductsMessage
+        {
+            get { return Resource.NoProductsMessage; }
+        }
+        public static string Address
+        {
+            get { return Resource.Address; }
+        }
+        public static string AddressPlaceHolder
+        {
+            get { return Resource.AddressPlaceHolder; }
+        }
+      
+        public static string PasswordsNoMatch
+        {
+            get { return Resource.PasswordsNoMatch; }
+        }
+        public static string RegisterConfirmation
+        {
+            get { return Resource.RegisterConfirmation; }
+        }
+        public static string Categories
+        {
+            get { return Resource.Categories; }
+        }
+        public static string Category
+        {
+            get { return Resource.Category; }
+        }
+        public static string CategoryPlaceHolder
+        {
+            get { return Resource.CategoryPlaceHolder; }
+        }
+        public static string CategoryError
+        {
+            get { return Resource.CategoryError; }
+        }
+
+
     }
 }

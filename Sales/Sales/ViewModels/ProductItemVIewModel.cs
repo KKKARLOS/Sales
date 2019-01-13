@@ -37,7 +37,7 @@ namespace Sales.ViewModels
         private async void DeleteProduct()
         {
             var answer = await Application.Current.MainPage.DisplayAlert
-                (Languages.ConfirmLabel, 
+                (Languages.Confirm, 
                 Languages.DeleteConfirmation, 
                 Languages.Yes,
                 Languages.No
@@ -69,7 +69,10 @@ namespace Sales.ViewModels
                 url,
                 prefix,
                 controller,
-                this.ProductId);
+                this.ProductId,
+                Settings.TokenType,
+                Settings.AccessToken
+                );
 
             if (!response.IsSuccess)
             {
@@ -105,7 +108,8 @@ namespace Sales.ViewModels
         private async void EditProduct()
         {
             MainViewModel.GetInstance().EditProduct = new EditProductViewModel(this);
-            await Application.Current.MainPage.Navigation.PushAsync(new EditProductPage());
+            //await Application.Current.MainPage.Navigation.PushAsync(new EditProductPage());
+            await App.Navigator.PushAsync(new EditProductPage());
         }
         #endregion
     }

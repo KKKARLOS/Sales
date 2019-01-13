@@ -5,13 +5,41 @@ using Xamarin.Forms;
 namespace Sales
 {
     using Views;
+    using ViewModels;
+    using Sales.Helpers;
+    using Newtonsoft.Json;
+    using Sales.Common.Models;
+
     public partial class App : Application
     {
+        public static NavigationPage Navigator { get; internal set; }
+        public static MasterPage Master
+        {
+            get;
+            internal set;
+        }
         public App()
         {
             InitializeComponent();
+            var mainViewModel = MainViewModel.GetInstance();
 
-            MainPage = new NavigationPage(new ProductsPage());
+            if (Settings.IsRemembered)
+            {
+
+                if (!string.IsNullOrEmpty(Settings.UserASP))
+                {
+                    mainViewModel.UserASP = JsonConvert.DeserializeObject<MyUserASP>(Settings.UserASP);
+                }
+
+                mainViewModel.Categories = new CategoriesViewModel();
+                this.MainPage = new MasterPage();
+            }
+            else
+            {
+                mainViewModel.Login = new LoginViewModel();
+                this.MainPage = new NavigationPage(new LoginPage());
+            }
+
         }
 
         protected override void OnStart()

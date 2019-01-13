@@ -186,7 +186,7 @@
   <data name="ChangeImage" xml:space="preserve">
     <value>Toca la imagen para cambiarla.</value>
   </data>
-  <data name="FirstNameLabel" xml:space="preserve">
+  <data name="FirstName" xml:space="preserve">
     <value>Nombres</value>
   </data>
   <data name="FirstNamePlaceHolder" xml:space="preserve">
@@ -195,7 +195,7 @@
   <data name="FirstNameValidation" xml:space="preserve">
     <value>Debes ingresar nombre(s)</value>
   </data>
-  <data name="LastNameLabel" xml:space="preserve">
+  <data name="LastName" xml:space="preserve">
     <value>Apellidos</value>
   </data>
   <data name="LastNamePlaceHolder" xml:space="preserve">
@@ -204,7 +204,7 @@
   <data name="LastNameValidation" xml:space="preserve">
     <value>Debes ingresar apellido(s).</value>
   </data>
-  <data name="PhoneLabel" xml:space="preserve">
+  <data name="Phone" xml:space="preserve">
     <value>Teléfono</value>
   </data>
   <data name="PhonePlaceHolder" xml:space="preserve">
@@ -213,7 +213,7 @@
   <data name="PhoneValidation" xml:space="preserve">
     <value>Debes ingresar un teléfono.</value>
   </data>
-  <data name="ConfirmLabel" xml:space="preserve">
+  <data name="Confirm" xml:space="preserve">
     <value>Confirmación</value>
   </data>
   <data name="ConfirmPlaceHolder" xml:space="preserve">
@@ -341,5 +341,47 @@
   </data>
   <data name="IsAvailable" xml:space="preserve">
     <value>Está disponible</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="Setup" xml:space="preserve">
+    <value>Configurar</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="NoProductsMessage" xml:space="preserve">
+    <value>No hay información de productos disponible.</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="AddressPlaceHolder" xml:space="preserve">
+    <value>Introduzca su dirección</value>
+  </data>
+  <data name="PasswordConfirm" xml:space="preserve">
+    <value>Confirme su contraseña</value>
+  </data>
+  <data name="PasswordsNoMatch" xml:space="preserve">
+    <value>La contraseña y la confirmación de contraseña deben ser iguales!</value>
+  </data>
+  <data name="PasswordConfirmPlaceHolder" xml:space="preserve">
+    <value>Ingrese su contraseña</value>
+  </data>
+  <data name="RegisterConfirmation" xml:space="preserve">
+    <value>El usuario fue creado con éxito. Ahora puedes entrar con el email!</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Categorías</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="CategoryPlaceHolder" xml:space="preserve">
+    <value>Seleccione la categoría!</value>
+  </data>
+  <data name="CategoryError" xml:space="preserve">
+    <value>Debe seleccionar una categoría.</value>
   </data>
 </root>

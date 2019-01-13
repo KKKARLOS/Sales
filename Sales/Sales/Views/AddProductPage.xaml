@@ -59,19 +59,32 @@
                         Keyboard="Numeric"
                         Placeholder="{i18n:Translate PricePlaceHolder}">
                     </Entry>
-                    <Label 
+                    <Label
+                        Grid.Column="0"
                         Grid.Row="2"
-                        Grid.Column="0"                        
-                        FontAttributes="Bold"
-                        VerticalOptions="Center"
-                        Text="{i18n:Translate Remarks}">
+                        Text="{i18n:Translate Category}"
+                        VerticalOptions="Center">
+                    </Label>
+                    <Picker
+                        Grid.Column="1"
+                        Grid.Row="2"
+                        ItemDisplayBinding="{Binding Description}"
+                        ItemsSource="{Binding Categories}"
+                        SelectedItem="{Binding Category}"
+                        Title="{i18n:Translate CategoryPlaceHolder}">
+                    </Picker>
+                    <Label
+                        Grid.Column="0"
+                        Grid.Row="3"
+                        Text="{i18n:Translate Remarks}"
+                        VerticalOptions="Center">
                     </Label>
                     <Editor
-                        Grid.Row="2"
-                        Grid.Column="1"  
+                        Grid.Column="1"
+                        Grid.Row="3"
                         Text="{Binding Remarks}"
                         VerticalOptions="FillAndExpand">
-                    </Editor>                    
+                    </Editor>
                 </Grid>
                 <ActivityIndicator
                     IsRunning="{Binding IsRunning}"

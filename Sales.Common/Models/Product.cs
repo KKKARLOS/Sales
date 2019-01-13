@@ -1,14 +1,26 @@
 ﻿namespace Sales.Common.Models
 {
     using System;
+    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
+    using Newtonsoft.Json;
 
     public class Product
     {
         [Key]
         [Display(Name="Código")]
         public int ProductId { get; set; }
+
+        public int CategoryId { get; set; }
+        public virtual Category Category { get; set; }
+
+        [Required]
+        [StringLength(128)]
+        public string UserId { get; set; }
+
+        public double Latitude { get; set; }
+        public double Longitude { get; set; }
 
         [Required]
         [Display(Name = "Descripción")]

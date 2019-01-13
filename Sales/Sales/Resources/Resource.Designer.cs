@@ -61,6 +61,15 @@ namespace Sales.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a About.
+        /// </summary>
+        public static string About {
+            get {
+                return ResourceManager.GetString("About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Accept.
         /// </summary>
         public static string Accept {
@@ -79,11 +88,65 @@ namespace Sales.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Addres.
+        /// </summary>
+        public static string Address {
+            get {
+                return ResourceManager.GetString("Address", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Enter your address.
+        /// </summary>
+        public static string AddressPlaceHolder {
+            get {
+                return ResourceManager.GetString("AddressPlaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Cancel.
         /// </summary>
         public static string Cancel {
             get {
                 return ResourceManager.GetString("Cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Categories.
+        /// </summary>
+        public static string Categories {
+            get {
+                return ResourceManager.GetString("Categories", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Category.
+        /// </summary>
+        public static string Category {
+            get {
+                return ResourceManager.GetString("Category", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a You must select a category.
+        /// </summary>
+        public static string CategoryError {
+            get {
+                return ResourceManager.GetString("CategoryError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Select de category.
+        /// </summary>
+        public static string CategoryPlaceHolder {
+            get {
+                return ResourceManager.GetString("CategoryPlaceHolder", resourceCulture);
             }
         }
         
@@ -117,9 +180,9 @@ namespace Sales.Resources {
         /// <summary>
         ///   Busca una cadena traducida similar a Confirm.
         /// </summary>
-        public static string ConfirmLabel {
+        public static string Confirm {
             get {
-                return ResourceManager.GetString("ConfirmLabel", resourceCulture);
+                return ResourceManager.GetString("Confirm", resourceCulture);
             }
         }
         
@@ -304,11 +367,20 @@ namespace Sales.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a Exit.
+        /// </summary>
+        public static string Exit {
+            get {
+                return ResourceManager.GetString("Exit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a First Name.
         /// </summary>
-        public static string FirstNameLabel {
+        public static string FirstName {
             get {
-                return ResourceManager.GetString("FirstNameLabel", resourceCulture);
+                return ResourceManager.GetString("FirstName", resourceCulture);
             }
         }
         
@@ -396,9 +468,9 @@ namespace Sales.Resources {
         /// <summary>
         ///   Busca una cadena traducida similar a Last Name.
         /// </summary>
-        public static string LastNameLabel {
+        public static string LastName {
             get {
-                return ResourceManager.GetString("LastNameLabel", resourceCulture);
+                return ResourceManager.GetString("LastName", resourceCulture);
             }
         }
         
@@ -511,11 +583,38 @@ namespace Sales.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a No products information available..
+        /// </summary>
+        public static string NoProductsMessage {
+            get {
+                return ResourceManager.GetString("NoProductsMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Password.
         /// </summary>
         public static string Password {
             get {
                 return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a PasswordConfirm.
+        /// </summary>
+        public static string PasswordConfirm {
+            get {
+                return ResourceManager.GetString("PasswordConfirm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Enter your password confirm.
+        /// </summary>
+        public static string PasswordConfirmPlaceHolder {
+            get {
+                return ResourceManager.GetString("PasswordConfirmPlaceHolder", resourceCulture);
             }
         }
         
@@ -534,6 +633,15 @@ namespace Sales.Resources {
         public static string PasswordPlaceHolder {
             get {
                 return ResourceManager.GetString("PasswordPlaceHolder", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a The password and confirm must be equals.
+        /// </summary>
+        public static string PasswordsNoMatch {
+            get {
+                return ResourceManager.GetString("PasswordsNoMatch", resourceCulture);
             }
         }
         
@@ -558,9 +666,9 @@ namespace Sales.Resources {
         /// <summary>
         ///   Busca una cadena traducida similar a Phone.
         /// </summary>
-        public static string PhoneLabel {
+        public static string Phone {
             get {
-                return ResourceManager.GetString("PhoneLabel", resourceCulture);
+                return ResourceManager.GetString("Phone", resourceCulture);
             }
         }
         
@@ -628,6 +736,15 @@ namespace Sales.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a The user was created successfully. Now you can enter with the email .
+        /// </summary>
+        public static string RegisterConfirmation {
+            get {
+                return ResourceManager.GetString("RegisterConfirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a Register New User.
         /// </summary>
         public static string RegisterTitle {
@@ -669,6 +786,15 @@ namespace Sales.Resources {
         public static string Search {
             get {
                 return ResourceManager.GetString("Search", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Setup.
+        /// </summary>
+        public static string Setup {
+            get {
+                return ResourceManager.GetString("Setup", resourceCulture);
             }
         }
         
